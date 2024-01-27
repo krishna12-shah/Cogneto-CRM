@@ -28,7 +28,7 @@ public class LoginPageTest extends BasePage{
 	
 	
 	@Test(priority=1)
-	public void loginPageTitleTest()
+	public void loginPageTitleTestVerify()
 	{
 		String title = loginPage.getLoginPageTitle();
 		Assert.assertEquals(title, "Cogmento CRM");
