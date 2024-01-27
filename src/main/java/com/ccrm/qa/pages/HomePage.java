@@ -54,7 +54,9 @@ public class HomePage extends BasePage {
 
 	public boolean verifyCorrectUserName()
 	{
+		System.out.println("Test");
 		return userNameLabel.isDisplayed();
+		
 	}
 	
      public void contactPageClick()

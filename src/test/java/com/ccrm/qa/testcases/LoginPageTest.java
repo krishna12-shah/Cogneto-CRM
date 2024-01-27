@@ -37,6 +37,7 @@ public class LoginPageTest extends BasePage{
 	@Test(priority = 2)
 	public void loginTest()
 	{
+		System.out.println("Test");
 		loginPage.doLogin(prop.getProperty("email"),prop.getProperty("password"));
 	}
 	
