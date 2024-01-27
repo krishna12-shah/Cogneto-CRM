@@ -1,2 +1,11 @@
+.gitignore
+.classpath
+.settings
+.project
+/target/
+allure-results
 test-output
+bin
+local.xml
+
 
